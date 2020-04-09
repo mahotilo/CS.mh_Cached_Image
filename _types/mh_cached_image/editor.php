@@ -41,6 +41,17 @@ $editor = array(
     // value 'expiration' --end
 
 
+    'id' => array(
+      'label' => '<i class="fa fa-html5"></i> '.$editor_lang['id'],
+      'control_type' => 'text',
+      'attributes' => array(
+      ),
+      'on' => array(
+      ),
+    ),
+    // value 'id' --end
+
+
     'alt' => array(
       'label' => '<i class="fa fa-html5"></i> '.$editor_lang['alt'],
       'control_type' => 'text',

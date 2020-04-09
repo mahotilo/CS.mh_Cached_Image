@@ -5,6 +5,7 @@ defined('is_running') or die('Not an entry point...');
 $section_lang = array(
 	'URL'						=> 'URL изображения',
 	'Cache_expiration'			=> 'Время действия кэша, час',
+	'id'						=> 'id',
 	'alt'						=> 'alt',
 	'width'						=> 'width',
 	'height'					=> 'height',
