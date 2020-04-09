@@ -41,9 +41,20 @@ $editor = array(
     // value 'expiration' --end
 
 
+    'alt' => array(
+      'label' => '<i class="fa fa-html5"></i> '.$editor_lang['alt'],
+      'control_type' => 'text',
+      'attributes' => array(
+      ),
+      'on' => array(
+      ),
+    ),
+    // value 'alt' --end
+
+
     // value 'width' --start
     'width' => array(
-      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['Width'],
+      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['width'],
       'control_type' => 'text',
       'attributes' => array(
       ),
@@ -55,7 +66,7 @@ $editor = array(
 
     // value 'height' --start
     'height' => array(
-      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['Height'],
+      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['height'],
       'control_type' => 'text',
       'attributes' => array(),
       'on' => array(),
@@ -65,7 +76,7 @@ $editor = array(
 
     // value 'max-width' --start
     'max-width' => array(
-      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['Max-width'],
+      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['max-width'],
       'control_type' => 'text',
       'attributes' => array(
       ),
@@ -77,7 +88,7 @@ $editor = array(
 
     // value 'max-height' --start
     'max-height' => array(
-      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['Max-height'],
+      'label' => '<i class="fa fa-css3"></i> '.$editor_lang['max-height'],
       'control_type' => 'text',
       'attributes' => array(),
       'on' => array(),

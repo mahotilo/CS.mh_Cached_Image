@@ -14,6 +14,7 @@ $section = array();
 $section['values'] = array_merge(array(
   'URL'					=> '',
   'expiration'			=> '12',
+  'alt'					=> '',
   'width'				=> '',
   'height'				=> '',
   'max-width'			=> '',
@@ -73,7 +74,7 @@ if ( isset($GettingSection) ) {
 	$maxwidth = $section['values']['max-width'] != '' ? 'max-width:'.$section['values']['max-width'].';' : '';
 	$maxheight = $section['values']['max-height'] != '' ? 'max-height:'.$section['values']['max-height'].';' : '';
 	
-	$section['content']  = '<img src="'.$CacheRelativeFileName.'" style="'.$width.$height.$maxwidth.$maxheight.'">';
+	$section['content']  = '<img src="'.$CacheRelativeFileName.'" style="'.$width.$height.$maxwidth.$maxheight.'" alt="{{alt}}">';
 }
 
 

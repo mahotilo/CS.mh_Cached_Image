@@ -5,10 +5,11 @@ defined('is_running') or die('Not an entry point...');
 $section_lang = array(
 	'URL'						=> 'URL изображения',
 	'Cache_expiration'			=> 'Время действия кэша, час',
-	'Width'						=> 'Width',
-	'Height'					=> 'Height',
-	'Max-width'					=> 'Max-width',
-	'Max-height'				=> 'Max-height',
+	'alt'						=> 'alt',
+	'width'						=> 'width',
+	'height'					=> 'height',
+	'max-width'					=> 'max-width',
+	'max-height'				=> 'max-height',
 );
 
 $editor_lang = array(

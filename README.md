@@ -32,4 +32,5 @@ The plugin creates a local copy of an external image, e.g. from Google Drive, to
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 ## Changelog
-* v1.0 
+* v1.1 
+	- alt tag added
