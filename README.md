@@ -32,5 +32,8 @@ The plugin creates a local copy of an external image, e.g. from Google Drive, to
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 ## Version history
+* v1.2 
+	- always update image in admin mode
+	
 * v1.1 
 	- alt, id tag added
