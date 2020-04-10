@@ -46,7 +46,7 @@ if ( isset($GettingSection) ) {
 		$fmt = file_exists($CacheFileName) ? filemtime($CacheFileName) : 0;
 		$delta = abs( $_SERVER['REQUEST_TIME'] - $fmt );
 
-		if ( $delta >= $section['values']['expiration']*3600 ) { //lifetime in hours
+		if ( \gp\tool::LoggedIn() || $delta >= $section['values']['expiration']*3600 ) { //lifetime in hours
 			$ch = curl_init($Img_URL);
 			curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla / 5.0 (Windows; U; Windows NT 5.1; en - US; rv:1.8.1.6) Gecko / 20070725 Firefox / 2.0.0.6");
 			curl_setopt($ch, CURLOPT_BINARYTRANSFER, 1);
