@@ -37,7 +37,7 @@ if ( isset($GettingSection) ) {
 	if ($Img_URL == '') {
 		$CacheRelativeFileName = '/include/imgs/default_image.jpg';
 	} else {	
-		$CacheFile = 'gdi'.crc32($Img_URL).'.dat';
+		$CacheFile = 'gdi_'.dechex(crc32($Img_URL)).'.dat';
 		$CacheRelativePath = '/data/_uploaded/image/'.$type;
 		$CachePath = $dataDir.$CacheRelativePath;
 		$CacheRelativeFileName = $CacheRelativePath.'/'.$CacheFile;
