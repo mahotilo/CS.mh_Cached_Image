@@ -90,7 +90,7 @@ if ( isset($GettingSection) ) {
 $section['gp_label'] = 'mh Cached Image';
 $section['gp_color'] = '#1EA076';
 
-$section['always_process_values'] = false;
+$section['always_process_values'] = true;
 
 $components = '';
 
