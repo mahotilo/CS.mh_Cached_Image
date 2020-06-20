@@ -5,6 +5,7 @@
 
 ## About
 The plugin creates a local copy of an external image, e.g. from Google Drive, to speedup image loading. The local copy has an adjustable expiration time.
+Cached images are stored in /data/_uploaded/image/mh_cached_image dir as *.dat files. You have to manually clear this folder when changing the image URL. 
 
 ## See also 
 * [CustomSections](https://github.com/juek/CustomSections)
