@@ -1,5 +1,5 @@
 ![](_types/mh_cached_image/ui_icon.png)
-# [mh_Cached_Image (mh Cached Image)](https://github.com/mahotilo/CS.mh_Cached_Image) - Cashed external image. 
+# [mh Cached Image](https://github.com/mahotilo/CS.mh_Cached_Image) - Cashed external image. 
 ## Section type for CustomSections plugin (Typesetter CMS)
 
 
