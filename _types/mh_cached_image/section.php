@@ -33,6 +33,7 @@ global $addonPathData,$addonRelativeData,$dataDir;
 if ( isset($GettingSection) ) { 
 
 	$Img_URL = $section['values']['URL'];
+	$timestamp = '';
 
 	if ($Img_URL == '') {
 		$CacheRelativeFileName = '/include/imgs/default_image.jpg';
@@ -45,6 +46,7 @@ if ( isset($GettingSection) ) {
 
 		$fmt = file_exists($CacheFileName) ? filemtime($CacheFileName) : 0;
 		$delta = abs( $_SERVER['REQUEST_TIME'] - $fmt );
+		$timestamp = '?v='.$fmt;
 
 		if ( \gp\tool::LoggedIn() || $delta >= $section['values']['expiration']*3600 ) { //lifetime in hours
 			$ch = curl_init($Img_URL);
@@ -77,7 +79,7 @@ if ( isset($GettingSection) ) {
 	
 	$section['content']  = '
 	<img 
-		src="'.$CacheRelativeFileName.'" 
+		src="'.$CacheRelativeFileName.$timestamp.'" 
 		style="'.$width.$height.$maxwidth.$maxheight.'" 
 		id="{{id}}"
 		name="{{id}}"
