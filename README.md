@@ -32,6 +32,8 @@ Cached images are stored in /data/_uploaded/image/mh_cached_image dir as *.dat f
 GPL 2, for bundled thirdparty components see the respective subdirectories.
 
 ## Version history
+* v1.4
+	- introduce ?v param in image URL to force it refresh in browser
 * v1.3
 	- make section $section['always_process_values'] = true
 * v1.2 
