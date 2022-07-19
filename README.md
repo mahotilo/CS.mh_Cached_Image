@@ -17,6 +17,7 @@ Cached images are stored in /data/_uploaded/image/mh_cached_image dir as *.dat f
 ## Requirements
 * Typesetter CMS
 * CustomSections addon installed.
+* Available CURL
 
 ## Manual Installation
 1. Download the [master ZIP archive](https://github.com/mahotilo/CS.mh_Cached_Image/archive/master.zip)
